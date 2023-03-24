@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" class="form">
+        <fieldset>
+            <legend>Form</legend>
+            <div class="components">
+
+                <label for="">Name: </label>
+                <input type="text" placeholder="Name">
+
+                <label for="">Last Name: </label>
+                <input type="text" placeholder="Last Name">
+
+            </div>
+            <div class="components">
+                <label for="">CPF:</label>
+                <input type="text" placeholder="xxx.xxx.xxx-xx">
+                <label for="">RG:</label>
+                <input type="text" placeholder="xxxxxx-x">
+            </div>
+            <div class="components">
+                <label for="">Date of Birth</label>
+                <input type="date">
+                <label for="">Estado: </label>
+                <select name="estado" id="">
+                    <option value="" selected>Select</option>
+                    <option value="">Amazonas</option>
+                    <option value="">Amapá</option>
+                    <option value="">Acre</option>
+                    <option value="">Fortaleza</option>
+                    <option value="">São Paulo</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Alagoas</option>
+                    <option value="">Recife</option>
+                    <option value="">Pernambuco</option>
+                    <option value="">Ceará</option>
+                    <option value="">Sergipe</option>
+                    <option value="">Salvador</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Gender:</label>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Famele
+                <input type="radio" name="gender"> Other:
+                <input type="text" disabled>
+
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Address</legend>
+            <div class="components">
+                <label for="">CEP: </label>
+                <input type="text" placeholder="enter the zip code">
+                <button class="coolButton size" type="button">Search</button>
+                <button class="coolButton size" type="button">Manual</button>
+            </div>
+            <div class="components">
+                <label for="">Street: </label>
+                <input type="text" disabled>
+            </div>
+            <div class="components">
+                <label for="">Complement: </label>
+                <input type="text" disabled>
+            </div>
+            <div class="components">
+                <label for="">District: </label>
+                <input type="text" disabled>
+            </div>
+            <div class="components">
+                <label for="">City: </label>
+                <input type="text" disabled>
+            </div>
+            <div class="components">
+                <label for="">State: </label>
+                <input type="text" disabled>
+            </div>
+        </fieldset>
+        <div class="division">
+            <button class="coolButton" type="submit">Save</button>
+            <button class="coolButton" type="reset">Clean</button>
+        </div>
+    </form>
+
+
+    <script src="./scripts/fun.js"></script>
+</body>
+
+</html>
